@@ -1,24 +1,24 @@
-import logo from './logo.svg';
+
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './component/Navbar';
+import Create from './component/Create';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Read from './component/Read';
+import Update from './component/Update';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+    <Header />
+    <Routes>
+      <Route path='/' element={<Create />}/>
+      <Route path='/read' element={<Read />}/>
+      <Route path='/edit/:id' element={<Update />}/>
+    </Routes>
+
+  
+    </BrowserRouter>
   );
 }
 
