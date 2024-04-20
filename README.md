@@ -1,3 +1,56 @@
+
+# CRUD Operations with Redux Toolkit and Thunks
+
+This project is a CRUD (Create, Read, Update, Delete) application created using Redux Toolkit, Redux Thunks, and a mock API. It allows users to perform CRUD operations on a collection of items stored on a mock API server. The application provides features such as adding, deleting, and editing items, all managed through Redux state management.
+
+## Features
+
+- **CRUD Operations**: Perform Create, Read, Update, and Delete operations on a collection of items.
+- **Redux Toolkit**: Utilizes Redux Toolkit for efficient and simplified Redux state management.
+- **Redux Thunks**: Uses Redux Thunks for handling asynchronous actions, such as fetching data from the mock API.
+- **Mock API**: Data is fetched from and persisted to a mock API server ([https://66009d3787c91a11641989af.mockapi.io/crud](https://66009d3787c91a11641989af.mockapi.io/crud)).
+- **Responsive Design**: The project is designed to be responsive and works seamlessly across different devices and screen sizes.
+
+## Demo
+
+You can see a live demo of the project [here](https://redux-toolkit-thunk.onrender.com/).
+
+## Created By
+
+This project was created by [Md Shamim Akhter](https://musical-mooncake-8fc409.netlify.app/).
+
+## Usage
+
+To use this project:
+
+1. Clone the repository to your local machine:
+
+    ```
+    git clone put the url from code
+    ```
+
+2. Navigate to the project directory:
+
+3. Install dependencies:
+
+    ```
+    npm install
+    ```
+
+4. Start the development server:
+
+    ```
+    npm start
+    ```
+
+5. Open your web browser and navigate to [http://localhost:3000](http://localhost:3000) to access the application.
+
+6. Perform CRUD operations on the items displayed in the application.
+
+## Contributing
+
+Contributions are welcome! If you have any ideas for improvements or new features, feel free to open an issue or submit a pull request.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
